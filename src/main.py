@@ -88,8 +88,9 @@ if 1==1:
     print(sink_final)
     print("below are routes that buses should follow")
     pprint(final)
-    #for cluster in ans:
-    #    pprint(cluster)
+    print("below are clusters in ans")
+    for cluster in ans:
+        pprint(cluster)
 
 
 
